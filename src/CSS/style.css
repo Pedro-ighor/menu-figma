@@ -1,0 +1,53 @@
+* {
+    font-family: 'Publica Sans', sans-serif;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nome-logo {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.menu-navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    list-style-type: none;
+}
+
+
+li a{
+    color: #000000;
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+}
+
+li a:hover {
+    background-color: #5cb241;
+    color: #ffffff
+}
+.btn{
+    margin-left:15px;
+    background-color:#5cb241;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover{
+    color: #000;
+    background-color:#5cb777;
+}
